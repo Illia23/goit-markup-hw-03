@@ -12,24 +12,59 @@ body {
 
 }
 
-/* header */
-/* : #404bbf focus
- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* nav-bar */
+.conteiner {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+
+}
+
+.nav {
+    display: flex;
+}
+
 
 .nav .logo {
-    color: #4D5AE5;
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+
+    color: var(--text);
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-
 }
 
 
 .nav .logo-studio {
     color: #2E2F42;
+}
+
+.address-list,
+.address {
+    display: flex;
+    margin-left: auto;
+}
+
+.address-list .address-item {
+    margin-right: 40px;
 }
 
 .address-list .link,
@@ -41,6 +76,17 @@ body {
 }
 
 
+.list-conect {
+    display: flex;
+    align-items: center;
+    margin-left: 76px;
+
+    outline: 1px solid tomato;
+}
+
+.list-conect .item:nth-child(n+1) {
+    margin-right: 40px;
+}
 
 .list-conect .menu {
     color: #2E2F42;
@@ -57,6 +103,8 @@ body {
 .address-list .social:focus {
     color: #404bbf;
 }
+
+/* address list */
 
 .address {
     font-style: normal;
