@@ -12,6 +12,10 @@ body {
 
 }
 
+img {
+    display: block;
+}
+
 h1,
 h2,
 h3,
@@ -24,7 +28,15 @@ p {
 }
 
 /* nav-bar */
+.head-line {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .conteiner {
+    width: 1158px;
+}
+
+.nav-bar {
     display: flex;
     padding-left: 15px;
     padding-right: 15px;
@@ -34,6 +46,7 @@ p {
 
 .nav {
     display: flex;
+    align-items: center;
 }
 
 
@@ -41,6 +54,7 @@ p {
     display: flex;
     margin-top: 24px;
     margin-bottom: 24px;
+    margin-right: 76px;
 
 
     color: var(--text);
@@ -64,7 +78,7 @@ p {
 }
 
 .address-list .address-item {
-    margin-right: 40px;
+    gap: 40px;
 }
 
 .address-list .link,
@@ -79,14 +93,15 @@ p {
 .list-conect {
     display: flex;
     align-items: center;
-    margin-left: 76px;
-
+    gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     outline: 1px solid tomato;
 }
 
-.list-conect .item:nth-child(n+1) {
+/* .list-conect .item:nth-child(n+1) {
     margin-right: 40px;
-}
+} */
 
 .list-conect .menu {
     color: #2E2F42;
