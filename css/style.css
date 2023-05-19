@@ -35,6 +35,7 @@ p {
 .container {
     width: 1158px;
     margin: 0 auto;
+    outline: 1px solid tomato;
 }
 
 .nav-bar {
@@ -135,19 +136,45 @@ p {
 }
 
 /* hero image */
+
+
 .hero {
+    padding-top: 188px;
     background-color: #2E2F42;
 }
 
 .hero .title {
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 496px;
+
+
+
+
+
     color: #ffffff;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    outline: 1px solid tomato;
 }
 
 .hero .button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 48px;
+    padding: 16px 32px;
+    gap: 10px;
+    border: 0;
+    border-radius: 4px;
+
+
+
     font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
     color: #ffffff;
