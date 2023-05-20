@@ -35,7 +35,7 @@ p {
 .container {
     width: 1158px;
     margin: 0 auto;
-    outline: 1px solid tomato;
+
 }
 
 .nav-bar {
@@ -97,7 +97,7 @@ p {
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
-    outline: 1px solid tomato;
+
 }
 
 /* .list-conect .item:nth-child(n+1) {
@@ -161,13 +161,14 @@ p {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    outline: 1px solid tomato;
 }
+
 
 .hero .button {
     display: block;
     border: 0;
     border-radius: 4px;
+    height: 56px;
     min-width: 169px;
     margin-top: 48px;
     margin-left: auto;
@@ -199,6 +200,20 @@ p {
     letter-spacing: 0.02em;
 }
 
+.one-list {
+    display: flex;
+    flex-direction: row;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+
+}
+
+.one-list .item:not(:last-child) {
+    margin-right: 24px;
+
+}
+
 .onesect .text {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -206,6 +221,10 @@ p {
 
 /* section-2 */
 .section-2 .title {
+    padding-bottom: 72px;
+
+
+
     color: #2E2F42;
     font-weight: 500;
     font-size: 36px;
@@ -213,6 +232,20 @@ p {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+
+}
+
+.list-two {
+    display: flex;
+
+    padding-bottom: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.list-two .item:not(:last-child) {
+    margin-right: 24px;
 }
 
 /* section-3 */
@@ -230,11 +263,29 @@ p {
     text-transform: capitalize;
 }
 
+.comand {
+    display: flex;
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.comand .item:not(:last-child) {
+    margin-right: 24px;
+
+
+}
+
 .comand .item {
+
     background-color: #ffffff;
 }
 
 .comand .title-comand {
+    text-align: center;
+    margin-top: 32px;
+
+
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
@@ -243,6 +294,11 @@ p {
 }
 
 .comand .text {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 32px;
+
+
     line-height: 24px;
     letter-spacing: 0.02em;
 }
@@ -297,6 +353,11 @@ footer {
 }
 
 .footer .footer-logo {
+    display: inline-block;
+    margin-top: 100px;
+
+
+
     color: #4D5AE5;
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
@@ -311,5 +372,8 @@ footer {
 }
 
 .footer .footer-text {
+    width: 264px;
+    margin-top: 16px;
+    padding-bottom: 100px;
     color: #F4F4FD;
 }
