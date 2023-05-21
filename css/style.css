@@ -211,6 +211,8 @@ p {
 .one-list {
     display: flex;
     flex-direction: row;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .one-list .item {
