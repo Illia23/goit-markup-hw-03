@@ -191,8 +191,16 @@ p {
 }
 
 /* section 1 */
+.onesect {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 
 .onesect .title {
+    margin-bottom: 8px;
+
+
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
@@ -203,10 +211,10 @@ p {
 .one-list {
     display: flex;
     flex-direction: row;
-    padding-top: 120px;
-    padding-bottom: 120px;
+}
 
-
+.one-list .item {
+    width: calc((100%-3*24px)/4);
 }
 
 .one-list .item:not(:last-child) {
@@ -220,8 +228,12 @@ p {
 }
 
 /* section-2 */
+.section-2 {
+    padding-bottom: 120px;
+}
+
 .section-2 .title {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 
 
 
@@ -248,12 +260,23 @@ p {
     margin-right: 24px;
 }
 
+.list-two .item {
+    width: calc((100% - 72px) / 3);
+}
+
 /* section-3 */
 .three {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+
     background-color: #F4F4FD;
+
 }
 
 .three .title {
+    margin-bottom: 72px;
+
     color: #2E2F42;
     font-weight: 500;
     font-size: 36px;
@@ -266,8 +289,6 @@ p {
 .comand {
     display: flex;
 
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .comand .item:not(:last-child) {
@@ -277,13 +298,22 @@ p {
 }
 
 .comand .item {
-
+    width: calc((100%-72px)/4);
+    border-radius: 0px 0px 4px 4px;
     background-color: #ffffff;
+}
+
+.cont-comand {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .comand .title-comand {
     text-align: center;
-    margin-top: 32px;
+    margin-bottom: 8px;
+
 
 
     color: #2E2F42;
@@ -295,8 +325,7 @@ p {
 
 .comand .text {
     text-align: center;
-    margin-top: 8px;
-    margin-bottom: 32px;
+
 
 
     line-height: 24px;
@@ -345,6 +374,8 @@ main .list {
 /* Footer */
 
 footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #2E2F42;
 }
 
@@ -354,7 +385,7 @@ footer {
 
 .footer .footer-logo {
     display: inline-block;
-    margin-top: 100px;
+    margin-bottom: 16px;
 
 
 
@@ -373,7 +404,7 @@ footer {
 
 .footer .footer-text {
     width: 264px;
-    margin-top: 16px;
-    padding-bottom: 100px;
+
+
     color: #F4F4FD;
 }
