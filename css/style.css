@@ -213,7 +213,7 @@ p {
     flex-direction: row;
 }
 
-.one-list .item {
+.one-list .first {
     width: calc((100%-72px)/4);
 }
 
@@ -260,7 +260,7 @@ p {
     margin-right: 24px;
 }
 
-.list-two .item {
+.list-two .first {
     width: calc((100% - 48px) / 3);
 }
 
@@ -297,8 +297,12 @@ p {
 
 }
 
-.comand .item {
+.comand .first {
     width: calc((100%-72px)/4);
+}
+
+.comand .item {
+
     border-radius: 0px 0px 4px 4px;
     background-color: #ffffff;
 }
