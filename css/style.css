@@ -16,6 +16,7 @@ img {
     display: block;
 }
 
+ul,
 h1,
 h2,
 h3,
@@ -35,6 +36,7 @@ p {
 .container {
     width: 1158px;
     margin: 0 auto;
+
 
 }
 
@@ -213,6 +215,8 @@ p {
     flex-direction: row;
     padding-left: 15px;
     padding-right: 15px;
+
+
 }
 
 .one-list .item {
@@ -252,9 +256,10 @@ p {
 .list-two {
     display: flex;
 
-    padding-bottom: 120px;
+
     padding-left: 15px;
     padding-right: 15px;
+
 
 }
 
@@ -264,6 +269,7 @@ p {
 
 .list-two .item {
     width: calc((100% - 48px) / 3);
+
 }
 
 /* section-3 */
@@ -290,6 +296,8 @@ p {
 
 .comand {
     display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 
@@ -304,6 +312,8 @@ p {
     width: calc((100%-72px)/4);
     border-radius: 0px 0px 4px 4px;
     background-color: #ffffff;
+
+
 }
 
 .cont-comand {
