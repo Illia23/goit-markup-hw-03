@@ -211,12 +211,16 @@ p {
     letter-spacing: 0.02em;
 }
 
+.onesect .text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 .one-list {
     display: flex;
-    flex-direction: row;
     padding-left: 15px;
     padding-right: 15px;
-
+    gap: 24px;
 
 }
 
@@ -224,25 +228,19 @@ p {
     width: calc((100% - 72px) / 4);
 }
 
-.one-list .item:not(:last-child) {
-    margin-right: 24px;
 
-}
 
-.onesect .text {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
+
 
 /* section-2 */
+
+
 .two-sect {
     padding-bottom: 120px;
 }
 
 .two-sect .title {
     margin-bottom: 72px;
-
-
 
     color: #2E2F42;
     font-weight: 500;
@@ -256,16 +254,11 @@ p {
 
 .list-two {
     display: flex;
-
-
+    gap: 24px;
     padding-left: 15px;
     padding-right: 15px;
 
 
-}
-
-.list-two .item:not(:last-child) {
-    margin-right: 24px;
 }
 
 .second-item {
@@ -274,6 +267,7 @@ p {
 }
 
 /* section-3 */
+
 .three {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -293,38 +287,6 @@ p {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-}
-
-.comand {
-    display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
-
-}
-
-.comand .item:not(:last-child) {
-    margin-right: 24px;
-
-
-}
-
-.three-item {
-    width: calc((100% - 72px) / 4);
-}
-
-.comand .item {
-
-    border-radius: 0px 0px 4px 4px;
-    background-color: #ffffff;
-
-
-}
-
-.cont-comand {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
-    padding-right: 16px;
 }
 
 .comand .title-comand {
@@ -348,6 +310,39 @@ p {
     line-height: 24px;
     letter-spacing: 0.02em;
 }
+
+
+
+.comand {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 24px;
+
+}
+
+
+
+.three-item {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    background-color: #ffffff;
+
+
+}
+
+
+
+.cont-comand {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+
+
 
 /* section butt */
 
