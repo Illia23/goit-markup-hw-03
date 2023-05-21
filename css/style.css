@@ -3,6 +3,7 @@
     --bacground: #F4F4FD;
     --titleportfolio: #2e2f42;
     --textportfolio: #434455;
+    --border-but: #e7e9fc;
 }
 
 body {
@@ -336,15 +337,18 @@ p {
 
 /* portfolio */
 
-
+.section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 
 /* section butt */
 .list-butt {
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding-top: 96px;
-    padding-bottom: 72px;
+
+    margin-bottom: 72px;
 
 
 }
@@ -355,10 +359,7 @@ p {
     padding-left: 24px;
     padding-right: 24px;
     border-radius: 4px;
-    border: 0;
-
-
-
+    border: 1px solid var(--border-but);
     font-family: "Roboto", sans-serif;
     cursor: pointer;
     color: var(--text);
@@ -374,6 +375,7 @@ p {
 .list-butt .butt-filt:focus {
     color: #ffffff;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 
 /* gallary */
@@ -385,7 +387,7 @@ main .list {
 .list-photo {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 120px;
+
 
 
 
@@ -405,19 +407,22 @@ main .list {
 
 .item-photo {
     width: calc((100% - 2*24px) / 3);
-    border: 1px solid #E7E9FC;
+
 }
 
 
 
+.cont-shop {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.cont-shop .title {
+    margin-bottom: 8px;
+}
 
 .list-photo .title {
-    padding-top: 32px;
-    margin-bottom: 8px;
-    padding-left: 16px;
-
-
-
     color: var(--titleportfolio);
     font-weight: 500;
     font-size: 20px;
@@ -426,10 +431,6 @@ main .list {
 }
 
 .list-photo .text {
-    padding-bottom: 32px;
-    padding-left: 16px;
-
-
     color: var(--textportfolio);
     letter-spacing: 0.02em;
     line-height: 1.5;
